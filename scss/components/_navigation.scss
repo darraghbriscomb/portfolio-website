@@ -1,0 +1,14 @@
+nav {
+  background-color: $background-color;
+}
+#navbrand{
+  font-family: 'Caveat', cursive;
+  color: $main-color;
+  font-size: 2rem;
+  text-shadow: 1px 2px 2px $shadow;
+}
+#header-image{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $background-color;
+}

@@ -1,0 +1,13 @@
+footer{
+  background-color: $background-color;
+  font-size: 1.3rem;
+  a{
+    font-family: 'Caveat', cursive;
+    color: $main-color;
+  }
+  a:hover{
+    font-family: 'Caveat', cursive;
+    color: $text;
+    text-decoration: none;
+  }
+}
