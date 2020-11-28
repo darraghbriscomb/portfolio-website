@@ -1,13 +1,14 @@
 footer{
-  background-color: $background-color;
+  background-color: $main-color;
   font-size: 1.3rem;
+  padding: 10px;
   a{
     font-family: 'Caveat', cursive;
-    color: $main-color;
+    color: $text;
   }
   a:hover{
     font-family: 'Caveat', cursive;
-    color: $text;
+    color: $main-dark;
     text-decoration: none;
   }
 }
