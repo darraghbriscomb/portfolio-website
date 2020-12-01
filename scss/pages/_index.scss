@@ -3,14 +3,14 @@
   color: $text;
 }
 #Brief{
-  background-image: url(https://www.publicdomainpictures.net/pictures/260000/velka/colorful-fog-background.jpg);
+  background-image: url("../images/background-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
 
   #about-b{
-    height: 500px;
-    padding: 120px;
+    padding-top: 120px;
     border-radius: 10px;
+    padding-bottom: 120px;
   }
   p{
     text-shadow: 2px 2px 5px $shadow;
@@ -26,16 +26,16 @@
 }
 #event-dl{
   border-top: 3px solid $background-color;
-  height: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   #about-e{
-    padding: 120px 100px 100px 100px;
     border-radius: 10px;
   }
   p{
     text-shadow: 2px 2px 5px $shadow;
   }
   h2{
-    padding-top: 40px;
+    padding-top: 30px;
       text-shadow: 2px 2px $main-color;
   }
   img{
@@ -46,13 +46,12 @@
 }
 #design-dl{
   border-top: 3px solid $background-color;
-  margin-bottom: 30px;
-  background-image: url(https://www.pixel4k.com/wp-content/uploads/2019/03/abstract-blur-4k_1553075272.jpg);
+  background-image: url("../images/background-2.jpg");
   background-repeat: no-repeat;
   background-position: right top;
-  height: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   #about-d{
-    padding: 180px;
     border-radius: 10px;
   }
   p{
@@ -64,9 +63,9 @@
 }
 #webdev-dl{
   border-top: 3px solid $background-color;
-  height: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   #about-w{
-    padding: 150px;
     border-radius: 10px;
   }
   p{
@@ -75,4 +74,7 @@
   h2{
       text-shadow: 2px 2px $main-color;
   }
+}
+* {
+  margin: 0;
 }
